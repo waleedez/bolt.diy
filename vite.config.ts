@@ -74,7 +74,7 @@ const gitInfo = getGitInfo();
 export default defineConfig((config) => {
   return {
     server: {
-    allowedHosts: ["bolt-diy-objs5q.fly.dev"]
+    allowedHosts: ["bolt-diy-wezz.fly.dev"]
     },
     define: {
       __COMMIT_HASH: JSON.stringify(gitInfo.commitHash),
